@@ -11,7 +11,7 @@ export default defineConfig({
       { text: '示例', link: '/markdown-examples' }
     ],
 
-    sidebar: [
+/*     sidebar: [
       {
         text: '示例',
         items: [
@@ -20,7 +20,7 @@ export default defineConfig({
         ]
       }
     ],
-
+ */
     socialLinks: [
       { icon: 'github', link: 'https://github.com/StarStudio-Inc/FurWiki' },
       { icon: 'qq', link: 'https://qm.qq.com/q/RYn26aJbuo' }
