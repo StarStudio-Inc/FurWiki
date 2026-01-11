@@ -76,6 +76,16 @@ table {
   transition: color 0.25s;
 }
 
+/* 全局颜色/背景平滑过渡（切换暗黑模式时的补充） */
+:root, body, .vp-doc, .VPDoc, .VPNav, .VPSidebar {
+  transition: color 0.35s ease, background-color 0.45s ease, border-color 0.35s ease;
+}
+
+/* 在暗黑切换时避免对图片产生突兀的抖动 */
+img {
+  transition: filter 0.35s ease;
+}
+
 /* dark/light radial transition */
 ::view-transition-old(root),
 ::view-transition-new(root) {
