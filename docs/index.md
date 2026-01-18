@@ -42,3 +42,5 @@ features:
     details: 名词解释、圈内潜规则、小提示
     link: /wiki/knowledges/
 ---
+<confetti />
+---
