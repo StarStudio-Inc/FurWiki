@@ -1,0 +1,14 @@
+/* .vitepress/theme/style/var.scss */
+
+/* VPFeatures 页卡悬浮效果 */
+.VPFeatures {
+  .items {
+    .item {
+      transition: transform 0.3s;
+
+      &:hover {
+        transform: translateY(-5px);
+      }
+    }
+  }
+}
